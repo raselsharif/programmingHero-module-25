@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>events</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>JS Events</h1>
-    <button onclick="console.log('clicked')">Click Me</button>
-    <button onclick="console.log('clicked again')">Click Me again</button> <br> <br>
+    <section>
 
-    <button onclick="document.body.style.backgroundColor='red'">Red</button>
-    <button onclick="blue()">Blue</button>
-    <button id="purple">Purple</button>
-    <button id="yellow">Yellow</button>
-    <button id="golden">Golden</button>
-    <button id="pink">Pink</button>
+        <h1>JS Events</h1>
+        <button onclick="console.log('clicked')">Click Me</button>
+        <button onclick="console.log('clicked again')">Click Me again</button> <br> <br>
+    
+        <button onclick="document.body.style.backgroundColor='red'">Red</button>
+        <button onclick="blue()">Blue</button>
+        <button id="purple">Purple</button>
+        <button id="yellow">Yellow</button>
+        <button id="golden">Golden</button>
+        <button id="pink">Pink</button>
+
+        <h1 id="input-text">Update from input text</h1>
+        <input id="input-field" type="text">
+        <button id="update-btn">Update</button>
+    </section>
 
     <script src="js/event.js"></script>
 </body>

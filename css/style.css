@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+section {
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+button:focus,
+input:focus {
+    border: 1px solid gray;
+}

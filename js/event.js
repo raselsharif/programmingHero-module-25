@@ -24,3 +24,14 @@ golden.addEventListener("click", function () {
 const pink = document.getElementById('pink').addEventListener("click", function () {
     document.body.style.backgroundColor = "pink";
 })
+
+
+const update = document.getElementById("update-btn").addEventListener('click', function () {
+    const inputText = document.getElementById('input-text');
+
+    const inputField = document.getElementById('input-field');
+
+    inputText.innerText = "My Name is: "+ inputField.value;
+
+    inputField.value='';
+})
